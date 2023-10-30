@@ -40,7 +40,8 @@ class OpenAI:
         prompt = f'''You are a psychologist. Our user is in a situation.
                      Situation: {user_text}
                      What emotions do you think this user is feeling?
-                     Format your answer in proper json format.
+                     Format your answer in proper json format it should be a json array
+                     of emotions. For example: ["sad", "angry", "happy"]
                  '''
         emotions = self.openai.predict(prompt)
         return emotions

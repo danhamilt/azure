@@ -1,0 +1,177 @@
+
+Situation I'm not earning as much as my peers. I'm a failure.
+Vector search similar: I'm not earning as much as my peers. I'm a failure.
+Vector search emotions: ["inferior", "disappointed", "frustrated", "insecure"] 
+"[\"inferior\", \"disappointed\", \"frustrated\", \"insecure\"]"
+Situation I broke a glass. I'm so clumsy.
+Vector search similar: I spilled coffee on my papers. I can't do anything right.
+Vector search emotions: {'user_emotions': [{'emotion': 'frustration', 'intensity': 'high'}, {'emotion': 'incompetence', 'intensity': 'moderate'}]} 
+"[\"frustrated\", \"embarrassed\", \"disappointed\"]"
+Situation I got lost even with GPS. I'm hopeless.
+Vector search similar: I got lost driving to the new place. I'm so stupid.
+Vector search emotions: {'emotions': ['frustration', 'embarrassment', 'self-criticism']} 
+"[\"frustrated\", \"anxious\", \"hopeless\"]"
+Situation I overslept and missed my class. I'm irresponsible.
+Vector search similar: I missed my flight. I'm so careless.
+Vector search emotions: {'emotions': ['frustration', 'regret', 'self-blame']} 
+"[\"guilty\", \"frustrated\", \"regretful\"]"
+Situation I said something awkward. Everyone must think I'm weird.
+Vector search similar: 'I don’t have my license. Everyone who finds out will think I’m weird and a burden.'
+Vector search emotions: ["anxious", "insecure", "ashamed"] 
+"[\"embarrassed\", \"anxious\", \"self-conscious\"]"
+Situation I didn't help when someone dropped their things. I'm rude.
+Vector search similar: I didn't help my colleague when they asked. I'm selfish.
+Vector search emotions: {'emotions': ['guilt', 'selfishness', 'regret']} 
+"[\"guilty\", \"apologetic\", \"ashamed\"]"
+Situation I didn't make a good impression. They won't like me.
+Vector search similar: I didn't get invited to the party. Nobody likes me.
+Vector search emotions: {'emotions': ['sadness', 'loneliness', 'rejection']} 
+"[\"anxious\", \"insecure\", \"fearful\"]"
+Situation I tripped on the sidewalk. I'm always making a fool of myself.
+Vector search similar: I got lost driving to the new place. I'm so stupid.
+Vector search emotions: {'emotions': ['frustration', 'embarrassment', 'self-criticism']} 
+"[\"embarrassed\", \"frustrated\", \"insecure\"]"
+Situation I didn't get the joke everyone laughed at. I'm out of place.
+Vector search similar: I didn't get invited to the party. Nobody likes me.
+Vector search emotions: {'emotions': ['sadness', 'loneliness', 'rejection']} 
+"[\"confused\", \"embarrassed\", \"insecure\"]"
+Situation I forgot my friend's baby's name. I'm thoughtless.
+Vector search similar: I forgot to call my friend on their birthday. I'm a bad friend.
+Vector search emotions: {'emotions': ['guilt', 'regret', 'shame', 'anxiety']} 
+"[\"embarrassed\", \"guilty\", \"anxious\"]"
+Situation I spent too much money on clothes. I'm wasteful.
+Vector search similar: I didn't save any money this month. I'm wasteful.
+Vector search emotions: {'emotions': ['regret', 'frustration', 'disappointment', 'guilt']} 
+"[\"regret\", \"guilt\", \"anxiety\"]"
+Situation I couldn't lift the heavy box. I'm weak.
+Vector search similar: I didn't stand up to the bully. I'm weak.
+Vector search emotions: {'emotions': ['Shame', 'Guilt', 'Regret', 'Inadequacy']} 
+"[\"frustrated\", \"inadequate\", \"disappointed\"]"
+Situation I got nervous and blanked during my presentation. I'm a loser.
+Vector search similar: I failed to get the job. I'm a loser.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'sadness', 'self-doubt', 'shame']} 
+"[\"nervous\", \"embarrassed\", \"insecure\", \"frustrated\"]"
+Situation I didn't get a callback from the job interview. I'm not good enough.
+Vector search similar: I failed to get the job. I'm a loser.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'sadness', 'self-doubt', 'shame']} 
+"[\"disappointed\", \"insecure\", \"frustrated\"]"
+Situation I'm not as fit as I used to be. I'm letting myself go.
+Vector search similar: I didn’t exercise today. I'm losing all my progress.
+Vector search emotions: {'emotions': ['frustration', 'disappointment', 'anxiety', 'guilt']} 
+"[\"frustrated\", \"disappointed\", \"insecure\", \"unmotivated\"]"
+Situation I snapped at my partner over something small. I'm too sensitive.
+Vector search similar: I snapped at my child. I'm a terrible parent.
+Vector search emotions: {'emotions': ['guilt', 'shame', 'regret'], 'thoughts': ['I am a terrible parent'], 'situations': ['snapping at my child']} 
+"[\"guilty\", \"frustrated\", \"regretful\", \"ashamed\", \"anxious\"]"
+Situation I forgot to send a thank you note. I'm ungrateful.
+Vector search similar: I forgot to call my friend on their birthday. I'm a bad friend.
+Vector search emotions: {'emotions': ['guilt', 'regret', 'shame', 'anxiety']} 
+"[\"guilty\", \"regretful\", \"anxious\"]"
+Situation I didn't notice my friend got a haircut. I'm self-centered.
+Vector search similar: I didn't help my colleague when they asked. I'm selfish.
+Vector search emotions: {'emotions': ['guilt', 'selfishness', 'regret']} 
+"[\"guilty\", \"embarrassed\", \"self-conscious\"]"
+Situation I'm not able to save money. I'll never have a secure future.
+Vector search similar: I lost my job. I'll never find a new one.
+Vector search emotions: {'emotions': ['Sadness', 'Anxiety', 'Fear', 'Hopelessness', 'Disappointment']} 
+"[\"frustrated\", \"anxious\", \"hopeless\"]"
+Situation I made a mistake at work. Everyone will think I'm incompetent.I got a negative review at work. I'm not good at anything.
+Vector search similar: I can't keep up with work. I'm incompetent.
+Vector search emotions: {'emotions': ['frustration', 'inadequacy', 'anxiety', 'stress']} 
+"[\"anxious\", \"insecure\", \"disappointed\"]"
+Situation I forgot to send an important email. I'm so disorganized.
+Vector search similar: I missed the deadline. I'm incompetent.
+Vector search emotions: {'emotions': ['Regret', 'Frustration', 'Embarrassment', 'Inadequacy', 'Anxiety']} 
+"[\"frustrated\", \"anxious\", \"disappointed\"]"
+Situation I argued with my partner again. I'm ruining this relationship.
+Vector search similar: I yelled at my partner. I'm a terrible person.
+Vector search emotions: {'emotions': ['guilt', 'regret', 'shame', 'self-disgust']} 
+"[\"frustrated\", \"sad\", \"guilty\", \"anxious\"]"
+Situation I didn't clean the house. I'm such a slob.
+Vector search similar: I didn't make my bed. I'm lazy.
+Vector search emotions: {'user_emotions': ['guilt', 'self-disgust', 'frustration']} 
+"[\"guilty\", \"frustrated\", \"disappointed\"]"
+Situation I overreacted to a joke. I'm too sensitive.
+Vector search similar: I overcooked dinner. I'm a failure in the kitchen.
+Vector search emotions: {'emotions': ['Embarrassment', 'Frustration', 'Inadequacy', 'Disappointment']} 
+"[\"embarrassed\", \"guilty\", \"disappointed\"]"
+Situation I didn't get selected for the team. I lack talent.
+Vector search similar: I failed to get the job. I'm a loser.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'sadness', 'self-doubt', 'shame']} 
+"[\"disappointed\", \"insecure\", \"frustrated\", \"doubtful\"]"
+Situation I burnt the toast again. I can't do the simplest things right.
+Vector search similar: I overcooked dinner. I'm a failure in the kitchen.
+Vector search emotions: {'emotions': ['Embarrassment', 'Frustration', 'Inadequacy', 'Disappointment']} 
+"[\"frustrated\", \"inadequate\", \"disappointed\"]"
+Situation I missed the bus. I can't manage my time.
+Vector search similar: I missed my flight. I'm so careless.
+Vector search emotions: {'emotions': ['frustration', 'regret', 'self-blame']} 
+"[\"frustrated\", \"anxious\", \"disappointed\"]"
+Situation I didn’t make it to the gym today. I lack dedication.
+Vector search similar: I didn’t exercise today. I'm losing all my progress.
+Vector search emotions: {'emotions': ['frustration', 'disappointment', 'anxiety', 'guilt']} 
+"[\"disappointed\", \"frustrated\", \"guilty\"]"
+Situation I lost my temper with my friend. I'm a bad friend.
+Vector search similar: I didn't support my friend when they needed me. I'm a bad friend.
+Vector search emotions: {'emotions': ['guilt', 'regret', 'shame']} 
+"[\"guilty\", \"regretful\", \"frustrated\"]"
+Situation I didn’t understand the material. I'm not smart enough.
+Vector search similar: I got a C on my exam. I'm not cut out for this.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'inadequacy', 'self-doubt']} 
+"[\"confused\", \"insecure\", \"frustrated\"]"
+Situation I made a mistake in my finances. I'm irresponsible.
+Vector search similar: I forgot to pay my bills on time. I'm irresponsible.
+Vector search emotions: {'emotions': ['anxiety', 'stress', 'guilt', 'frustration']} 
+"[\"regret\", \"anxiety\", \"guilt\"]"
+Situation I didn’t stand up for what I believed in. I'm a pushover.
+Vector search similar: I didn't stand up for myself. I'm a coward.
+Vector search emotions: {'emotions': ['guilt', 'shame', 'regret', 'insecurity', 'self-disappointment']} 
+"[\"regret\", \"disappointed\", \"frustrated\"]"
+Situation I yelled at my kids. I'm a terrible parent.
+Vector search similar: I snapped at my child. I'm a terrible parent.
+Vector search emotions: {'emotions': ['guilt', 'shame', 'regret'], 'thoughts': ['I am a terrible parent'], 'situations': ['snapping at my child']} 
+"[\"guilt\", \"regret\", \"shame\"]"
+Situation I didn’t get the job offer. I'm a failure.
+Vector search similar: I failed to get the job. I'm a loser.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'sadness', 'self-doubt', 'shame']} 
+"[\"disappointed\", \"frustrated\", \"insecure\"]"
+Situation I forgot to return a borrowed item. I'm thoughtless.
+Vector search similar: I forgot to pay my bills on time. I'm irresponsible.
+Vector search emotions: {'emotions': ['anxiety', 'stress', 'guilt', 'frustration']} 
+"[\"guilty\", \"embarrassed\", \"anxious\"]"
+Situation I didn’t help my colleague when they were struggling. I'm selfish.
+Vector search similar: I didn't help my colleague when they asked. I'm selfish.
+Vector search emotions: {'emotions': ['guilt', 'selfishness', 'regret']} 
+"[\"guilty\", \"regretful\", \"selfish\"]"
+Situation I missed my doctor’s appointment. I'm negligent.
+Vector search similar: I missed my flight. I'm so careless.
+Vector search emotions: {'emotions': ['frustration', 'regret', 'self-blame']} 
+"[\"guilty\", \"anxious\", \"frustrated\"]"
+Situation I didn’t perform well in the game. I'm a disappointment.
+Vector search similar: I failed to get the job. I'm a loser.
+Vector search emotions: {'emotions': ['disappointment', 'frustration', 'sadness', 'self-doubt', 'shame']} 
+"[\"disappointed\", \"frustrated\", \"insecure\"]"
+Situation I spent too much money on shopping. I'm reckless.
+Vector search similar: I didn't save any money this month. I'm wasteful.
+Vector search emotions: {'emotions': ['regret', 'frustration', 'disappointment', 'guilt']} 
+"[\"regret\", \"guilt\", \"anxiety\"]"
+Situation I forgot my anniversary. I'm a terrible spouse.
+Vector search similar: I forgot my spouse's birthday. I'm a terrible partner.
+Vector search emotions: {'emotions': ['guilt', 'remorse', 'embarrassment', 'anxiety']} 
+"[\"guilty\", \"regretful\", \"ashamed\"]"
+Situation I didn’t back up my files and lost data. I'm careless.
+Vector search similar: I missed my flight. I'm so careless.
+Vector search emotions: {'emotions': ['frustration', 'regret', 'self-blame']} 
+"[\"frustrated\", \"disappointed\", \"regretful\"]"
+Situation I didn’t follow through on my promise. I'm unreliable.
+Vector search similar: I didn't finish my project on time. I'm unreliable.
+Vector search emotions: {'emotions': ['frustration', 'disappointment', 'self-doubt', 'guilt']} 
+"[\"guilty\", \"disappointed\", \"ashamed\"]"
+Situation I said something insensitive. I'm a terrible person.
+Vector search similar: I was rude to the cashier. I'm a bad person.
+Vector search emotions: {'emotions': ['guilt', 'self-disgust', 'shame', 'regret']} 
+"[\"guilty\", \"shameful\", \"regretful\", \"disappointed\"]"
+Situation I can’t stick to a routine. I'm a failure.
+Vector search similar: I can't keep up with work. I'm incompetent.
+Vector search emotions: {'emotions': ['frustration', 'inadequacy', 'anxiety', 'stress']} 
+"[\"frustrated\", \"inadequate\", \"hopeless\"]"

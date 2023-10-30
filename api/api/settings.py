@@ -83,8 +83,16 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config()
+    'default': dj_database_url.config(),
+    'cosmos': {
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME': 'citus',
+        'USER': 'citus',
+        'PASSWORD': env('COSMOS_DB_PASSWORD'),
+        'HOST': env('COSMOS_DB_HOST'),
+    }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
