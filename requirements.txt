@@ -27,7 +27,7 @@ isodate==0.6.1
 jq==1.6.0
 jsonpatch==1.33
 jsonpointer==2.4
-langchain==0.0.325
+langchain==0.0.329
 langsmith==0.0.53
 marshmallow==3.20.1
 msal==1.24.1
